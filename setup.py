@@ -7,12 +7,11 @@ with io.open('README.md', encoding='utf_8') as fp:
     readme = fp.read()
 
 setup(
-    author="Andreas Mueller",
-    author_email="t3kcit+wordcloud@gmail.com",
-    name='wordcloud',
+    author="CS489 - Group 12",
+    name='wordcloud_cs489_old',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    url='https://github.com/amueller/word_cloud',
+    url='https://github.com/wuqs-net/word_cloud_old',
     description='A little word cloud generator',
     long_description=readme,
     long_description_content_type='text/markdown; charset=UTF-8',
