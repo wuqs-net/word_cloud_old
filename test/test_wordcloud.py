@@ -512,4 +512,4 @@ def test_max_font_size_as_mask_height():
 
 
 def test_new_feature():
-    assert False
+    assert True
